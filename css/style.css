@@ -1,6 +1,7 @@
 /*CSS Reset / Normalize*/
 
 :root{
+   --cor-de-menu:#EAF2FD;
    --cor-de-fundo: #F5F5F5;
    --cor-de-link: #000;
 }
@@ -58,25 +59,57 @@ section.menu{
 /*Sección Title*/
 
 section.title{
+    margin: 50px 5%;
+}
 
+.title__div{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.title__profile{
+    width: 368px;
+}
+
+.title__container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.title__bio{
+    font-size: 52px;
+    text-align: center;
+}
+
+.title__container{
+    font-size: 22px;
+    line-height: 1.5;
+
+}
+
+.title__network{
+    display: flex;
+    justify-content: space-around;
 }
 
 /*Sección About*/
 
 section.about{
-
+    background-image: url('assets\secretcode_print.png');
 }
 
 /*Sección Hobbies*/
 
 section.hobbies{
-    
 }
 
 /* Experiencia Académica*/
 
 section.academic{
-
+    background-color: var(--cor-de-menu);
 }
 
 /* experiencia*/
@@ -88,7 +121,7 @@ section.experience{
 /*Contacto*/
 
 section.formcontato{
-
+    background-color: var(--cor-de-menu);
 }
 
 /*footeer*/
