@@ -1,12 +1,6 @@
 /*CSS Reset / Normalize*/
-/* Hemos disponibilizado el básico de reset de estilos. Si quieren, añadan más informaciones 
-en las secciones señaladas */
-/*Já deixaremos o básico de reset de estilos. Caso queira adicionar mais informações
-coloque nas sessões indicadas*/
 
 :root{
-    /* Inserta la variable de los otros colores inspeccionando el exemplo de figma */
-    /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
    --cor-de-fundo: #F5F5F5;
    --cor-de-link: #000;
 }
@@ -19,9 +13,7 @@ body {
     padding: 0;
     line-height: 1;
 }
-ol, ul,li {
-    list-style: none;
-}
+
 a{
     text-decoration: none;
     color: var(--cor-de-link);
@@ -42,7 +34,25 @@ https://en.bem.info/methodology/quick-start/*/
 /*Sección Menu*/
 
 section.menu{
+    display: flex;
+    justify-content: space-around;
+    height: 75px;
+    align-items: center;
+}
 
+.menu__header{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.menu__list{
+    display: flex;
+    gap: 20px;
+}
+
+.menu__list__item__contato{
+    display: none;
 }
 
 /*Sección Title*/
