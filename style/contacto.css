@@ -1,0 +1,81 @@
+/*Normalización*/
+
+/*Contacto*/
+
+.formcontato__contacto {
+  padding: 25px;
+}
+
+.formcontato__title {
+  text-align: center;
+  font-size: 30px;
+}
+
+.formcontato__text {
+  margin-top: 15px;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.formcontato__form {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-top: 25px;
+}
+
+.formulario__campo {
+  display: flex;
+  flex-direction: column;
+}
+
+.formcontato__input {
+  width: 500px;
+  height: 50px;
+  border-radius: 10px;
+  border: 1px solid var(--color-de-caja);
+  background-color: var(--color-de-fondo);
+  color: var(--color-de-texto);
+  font-size: 15px;
+}
+
+.mensaje-error {
+  display: block;
+  margin-top: 5px;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 0.925rem;
+  color: red;
+}
+
+.formcontato__textarea {
+  width: 500px;
+  height: 200px;
+  border-radius: 10px;
+  border: 1px solid var(--color-de-caja);
+  background-color: var(--color-de-fondo);
+  color: var(--color-de-texto);
+  font-size: 15px;
+}
+
+.boton__enviar:disabled {
+  display: none;
+}
+
+.boton__enviar {
+  width: 500px;
+  height: 50px;
+  background-image: url("../img/Textura-Drago-Negro-03.png");
+  font-size: 30px;
+  color: var(--color-de-texto);
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.boton__enviar:hover {
+  background-image: url("../img/Textura-Drago.png");
+}
+
+.boton__enviar:active {
+  background-image: url("../img/Textura-Drago-azul.png");
+}

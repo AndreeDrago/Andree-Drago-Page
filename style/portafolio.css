@@ -1,0 +1,65 @@
+/*Normalización*/
+
+/*portafolio*/
+.experience {
+  padding: 25px;
+}
+
+.experience__section__title {
+  font-size: 30px;
+  text-align: center;
+}
+
+.experience__line {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.experience__box {
+  background-image: url("../img/Textura-Drago-Negro-03.png");
+  width: 500px;
+}
+
+.experience__img {
+  width: 500px;
+}
+
+.experience__info {
+  margin: 15px;
+  font-size: 20px;
+}
+
+.experience__title {
+  font-weight: bold;
+  text-align: center;
+}
+
+.experience__text {
+  text-align: justify;
+  margin-top: 15px;
+}
+
+.experience__link {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 15px;
+}
+
+.experience__link button {
+  width: 200px;
+  height: 45px;
+  background-image: url("../img/Textura-Drago-Negro-03.png");
+  border-radius: 10px;
+  color: var(--color-de-texto);
+  font-size: 20px;
+}
+
+.experience__link button:hover {
+  background-image: url("../img/Textura-Drago.png");
+}
+
+.experience__link button:active {
+  background-image: url("../img/Textura-Drago-azul.png");
+}

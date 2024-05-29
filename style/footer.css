@@ -1,0 +1,25 @@
+/*normalizado*/
+
+/*pié de página*/
+.footer {
+  background-image: url("../img/Textura-Drago-Negro-03.png");
+  display: flex;
+  padding: 25px;
+  justify-content: center;
+}
+
+.footer__rodape {
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 30px;
+}
+
+.footer__rodape img {
+  filter: drop-shadow(1px 1px 2px var(--color-de-sombra));
+  display: flex;
+  text-align: center;
+  width: 80%;
+}
